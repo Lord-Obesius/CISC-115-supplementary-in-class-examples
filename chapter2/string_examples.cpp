@@ -19,5 +19,7 @@ int main() {
     cout << "---" << endl;
     cout << s + s << endl;
 
+    std::cout << __cplusplus << std::endl;
+
     return 0;
 }

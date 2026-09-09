@@ -6,10 +6,10 @@ int main() {
     int num1, num2, num3;
 
     // 1
-    num = 18;
+    num1 = 18;
     
     // 2
-    num1 = num1 + 27;
+    num1 += 27;
 
     // 3
     num2 = num1;
@@ -18,7 +18,7 @@ int main() {
     num3 = num2 / 5;
 
     // 5
-    num3 = num3 / 4;
+    num3 /= 4;
 
 
     return 0;
